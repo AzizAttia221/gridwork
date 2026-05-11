@@ -281,9 +281,9 @@
         <header class="app-header">
             <div class="brand">GridWork</div>
             <nav class="nav-links">
-                <a href="{{ route('services.index') }}">Services</a>
-                <a href="{{ route('prestataires.index') }}">Prestataires</a>
-                <a href="{{ route('reservations.index') }}">Réservations</a>
+                <a href="{{ route('home') }}">Home</a>
+                <a href="{{ route('public.services.index') }}">Services</a>
+                <a href="{{ route('services.index') }}">Admin</a>
             </nav>
         </header>
 
